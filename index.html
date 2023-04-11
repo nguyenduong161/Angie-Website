@@ -1,0 +1,201 @@
+<!Doctype html>
+<html>
+
+<head>
+  <title>My Awesome Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+</head>
+
+<body>
+  <header>
+    <a href="index.html"><img id="logo" src="images/logo.png" alt="Website icon"></a>
+    <h1 id="name"><a href="index.html">My Awesome Website</a></h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#software">1. Software</a>
+    <a href="#github">2. GitHub</a>
+    <a href="#first-page">3. First Page</a>
+  </nav>
+
+  <main>
+    <section id="intro">
+      <div class="section-content">
+        <div class="section-left">
+          <img class="left resp-img website" src="images/website.png" alt="Photo of website">
+        </div>
+        <div class="section-right">
+          <p id="intro-text">This is a very quick and easy tutorial for creating your very own website, for free, with very little technical skill needed. It really is as easy as 1, 2, 3.</p>
+          <ol>
+            <li>Software: You'll need the free VS Code editor and Git software.</li>
+            <li>GitHub: You'll need a free account and a little bit of set up.</li>
+            <li>Web page: Just create and upload a webpage and you are done!</li>
+          </ol>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="section-divider">
+        <h2>About</h2>
+      </div>
+      <p>Setting up a website can be a complicated and expensive process. But it doesn't have to be! This tutorial shows you how to set up a website completely free and with very little technical skill. Following these steps, you can have a website that looks just like this in about 30 minutes.</p>
+    </section>
+
+
+    <section id="software">
+      <div class="section-divider">
+        <h2>Software</h2>
+      </div>
+      <p>You will need to install two pieces of software, VS Code and Git.</p>
+      <div class="section-content">
+        <div class="section-left">
+          <img class="left resp-img" src="images/vscode_icon.png" alt="VS Code logo">
+        </div>
+        <div class="section-right">
+          <p>Go to this website, <a href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download</a>, and select the right download option for your computer. Install the software as you would normally and/or follow the steps at this website, <a href="https://code.visualstudio.com/docs/setup/setup-overview#_cross-platform">https://code.visualstudio.com/docs/setup/setup-overview#_cross-platform</a>.</p>
+        </div>
+      </div>
+      <div class="section-content bg-light">
+        <div class="section-left">
+          <img class="resp-img" src="images/git_icon.png" alt="Git icon">
+        </div>
+        <div class="section-right">
+          <p>Install Git from <a target="_blank" href="https://git-scm.com/download"">https://git-scm.com/download</a></p>
+          <p>The installation is pretty straightforward, just accept all the default settings.</p>
+          <p>See <a href=" git.html">this page</a> for learning more about Git.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="github">
+      <div class="section-divider">
+        <h2>GitHub</h2>
+      </div>
+      <div class="section-content">
+        <div class="section-left">
+          <p>This section will show you how to create a free account at <a href="https://github.com">GitHub.com</a> and connect a repository there with VS Code. You can then edit your website in VS Code and easily send the changes to GitHub where it becomes the "live" website.</p>
+
+          <ol>
+            <li>
+              <p>Follow the tutorial at <a href="github-vscode.html">this page</a> to set up GitHub and VS Code.</p>
+            </li>
+            <li>
+              <p>After completing the tutorial above, you will activate GitHub Pages, the magic that turns your repo into a website.</p>
+              <ol>
+                <li>Click on the Settings tab when on your repo website</li>
+                <li>Click on the pages tab</li>
+                <li>Select the master or main branch</li>
+                <li>Keep the / (root) folder selected</li>
+                <li>Click the Save button</li>
+              </ol>
+              <img class="tut-img" src="images/activate-gh-pages.png" alt="Activate GH Pages">
+
+            </li>
+          </ol>
+
+          <p>After the next step, you will be able to view your website at the link displayed!</p>
+        </div>
+        <div class="section-right">
+          <img class="resp-img" src="images/octocat.png" alt="GitHub icon, Octocat">
+        </div>
+      </div>
+    </section>
+
+    <section id="first-page">
+      <div class="section-divider">
+        <h2>First Page</h2>
+      </div>
+      <div class="section-content">
+        <div class="section-left">
+        </div>
+
+        <div class="section-right">
+          <p>OK, Let's make the first web page to upload to GitHub!</p>
+
+          <ol>
+            <li>
+              <p>In VS Code, create a new file (just like you did with the README.md file) and name it 'index.html'.</p>
+
+              <p>You can put any plain HTML and CSS in this folder, and it will show up on your website. The 'index.html' file is special. If you do not include a file name in the website address (like this: https://ammonshepherd.github.io/make-a-website/) then the index.html page is shown. If you have a file named, hmmm, how about 'mario.html' then you can view that page at <a href="https://ammonshepherd.github.io/make-a-website/mario.html">https://ammonshepherd.github.io/make-a-website/mario.html</a></p>
+
+              <p>So this 'index.html' page acts as your home page for the site. You can use this code here as a starter: <a href="https://github.com/ammonshepherd/make-a-website/blob/main/mario.html">https://github.com/ammonshepherd/make-a-website/blob/main/mario.html</a></p>
+
+              <p>Just copy and paste the code from that file into your index.html file.</p>
+            </li>
+            <li>
+              <p>To get the CSS styles to work, you'll need to create a new file named 'style.css' and copy the CSS code from here: <a href="https://github.com/ammonshepherd/make-a-website/blob/main/style.css">https://github.com/ammonshepherd/make-a-website/blob/main/style.css</a></p>
+            </li>
+            <li>
+              <p>With those two files created and saved, now you can stage them, commit them, and push them to your new website.</p>
+
+              <p>Just wait a few minutes for GitHub to process the files, and then you can view them in a browser at your website address!</p>
+            </li>
+          </ol>
+
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="local-dev">
+      <div class="section-divider">
+        <h2>Local Development</h2>
+      </div>
+      <div class="section-content">
+        <div class="section-left">
+
+        </div>
+        <div class="section-right">
+          <p>What if you want to preview the changes before you send them to GitHub? It would be tedious to have every small change follow the stage, commit, push process.</p>
+
+          <p>Fortunately, there is an easy way to view these files while on your computer, make any change you want and instantly see the changes before staging, committing and pushing.</p>
+          <p>For your local development, you just need to view the local file in the browser to see changes before making them "live".</p>
+
+          <p>There are two easy ways to do this:</p>
+          <ol>
+            <li>
+              <p>In the Finder or File Explorer, browse to the index.html file you just created. Select 'Open with' and then select your favorite web browser. You should see the webpage!</p>
+              <p>Now you can make the changes in VS Code, save the file, then refresh the page in your browser to instantly see the changes before staging, committing, and pushing to GitHub.</p>
+            </li>
+            <li>
+              <p>The second option is just as easy. You can install a VS Code Extension (plugin) that gives you the option to open the current file in the browser.</p>
+              <p>Click on the Extension icon in VS Code, and search for 'Open PHP/HTML/JS in Browser' and install the extension by "PrimaFuture". (I know this one works, but if you search for 'open in browser' you'll find a dozen different options.)</p>
+              <p><img class="tut-img" src="images/extension-icon.png" alt="Extension image"></p>
+              <p>Now you can click the secondary mouse button to pull up the context menu, and select the option to open the file in the browser!</p>
+            </li>
+          </ol>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <h2>How to Make a Website</h2>
+      <p>&#169; Copyright 2021<br>Ammon Shepherd</p>
+
+    </div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#software">1. Software</a></li>
+      <li><a href="#github">2. GitHub</a></li>
+      <li><a href="#first-page">3. First Page</a></li>
+      <li><a href="#local-dev">Local Development</a></li>
+      <li><a href="mario.html">Mario</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
